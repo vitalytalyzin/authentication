@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.greeting {
+  color: #fff;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin: 0 16px 0 8px;
+  border-radius: 50%;
+}

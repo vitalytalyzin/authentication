@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #F48FB1;
+  font-family: 'Inconsolata', monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.logo {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 1 70px;
+  padding: 16px 32px;
+  background-color: #F48FB1;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  padding: 16px 32px;
+  background-color: #FCE4EC;
+}
+
+.content.full {
+  margin: 0 -6px;
+}
+
+.newsItemWrapper {
+  width: 50%;
+  padding: 0 6px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,8 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  margin-right: 16px;
+}
